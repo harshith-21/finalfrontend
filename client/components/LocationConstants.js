@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ChicagoPlaces = {};
+ChicagoPlaces['oakbrook'] = { place: 'Oak Brook' };
+ChicagoPlaces['woodfield'] = { place: 'Woodfield Mall' };
+ChicagoPlaces['ohare'] = { place: "O'hare" };
+var ChampaignPlaces = {};
+ChampaignPlaces['union'] = { place: 'The Union' };
+ChampaignPlaces['altgeld'] = { place: 'Altgeld' };
+ChampaignPlaces['isr'] = { place: 'Illinois Street Residence Halls' };
+ChampaignPlaces['armory'] = { place: 'Armory' };
+exports.default = { ChicagoPlaces: ChicagoPlaces, ChampaignPlaces: ChampaignPlaces };
